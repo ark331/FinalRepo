@@ -1,0 +1,9 @@
+/********************************************************************************************************************/
+@media only screen and (min-width: 10px) {
+	.wbtm_attendee_area>div{margin: 0 0 var(--dmp_xs) 0;}
+	.wbtm_attendee_area>div:last-child{margin: 0;}
+	div.wbtm_attendee_area .mp_form_item{width:calc(50% - 5px);-webkit-align-items: flex-start;align-items: flex-start;}
+	div.wbtm_attendee_area .mp_form_item>span{margin: 5px 0;}
+	div.wbtm_attendee_area,
+	.wbtm_registration_area div.wbtm_hidden_form{display: none;}
+}
